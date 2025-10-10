@@ -26,18 +26,8 @@
 
 ---
 
-### ⚡ Fun Facts:
-- 🎮 I love playing video games  
-- 🎧 Music keeps me focused  
-- 📺 Series watcher during downtime  
-- 💬 Always up for a coding chat!
-
-> 💬 *"If you can imagine it, you can program it!"*
-
----
-
 ### 📫 Contact Me
-📧 maiky.dev@example.com *(replace with your real one)*
+📧 maycolcharca2@gmail.com *(replace with your real one)*
 
 ---
 
