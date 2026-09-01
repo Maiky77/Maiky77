@@ -13,7 +13,6 @@
 ---
 
 ### 🧠 Currently Learning:
-- 📦 Laravel & PHP
 - 📊 Data Analysis & Machine Learning (with Python)
 - 💻 Full-stack web development
 
