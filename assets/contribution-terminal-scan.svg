@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-labelledby="title desc">
+  <title id="title">Contribution Terminal Scan concept</title>
+  <desc id="desc">A compact GitHub-dark contribution grid revealed by a cyan terminal scan.</desc>
+  <defs>
+    <linearGradient id="ts-border" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="ts-word-color" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/><stop offset="0.55" stop-color="#2dd4bf"/><stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <pattern id="ts-grid" width="15" height="15" patternUnits="userSpaceOnUse">
+      <rect width="11" height="11" rx="2" fill="#161b22" stroke="#21262d" stroke-width="0.6"/>
+    </pattern>
+    <pattern id="ts-word-cells" width="15" height="15" patternUnits="userSpaceOnUse">
+      <rect width="11" height="11" rx="2" fill="url(#ts-word-color)"/>
+    </pattern>
+    <mask id="ts-word-mask" maskUnits="userSpaceOnUse" x="51" y="74" width="798" height="90">
+      <rect x="51" y="74" width="798" height="90" fill="black"/>
+      <text x="450" y="153" text-anchor="middle" fill="white" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="82" font-weight="900" letter-spacing="7">MAIKY</text>
+    </mask>
+    <clipPath id="ts-reveal">
+      <rect x="51" y="74" width="0" height="90">
+        <animate attributeName="width" values="0;798;798;0" keyTimes="0;0.58;0.88;1" dur="8s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <filter id="ts-glow" x="-150%" y="-150%" width="400%" height="400%">
+      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="898" height="218" rx="18" fill="#0d1117" stroke="#30363d"/>
+  <rect x="1" y="1" width="898" height="3" rx="2" fill="url(#ts-border)" opacity="0.78"/>
+  <g font-family="Consolas, SFMono-Regular, Menlo, monospace">
+    <circle cx="31" cy="28" r="5" fill="#ff5f56"/><circle cx="49" cy="28" r="5" fill="#ffbd2e"/><circle cx="67" cy="28" r="5" fill="#27c93f"/>
+    <text x="91" y="32" fill="#8b949e" font-size="11">maiky77@github:~$ ./activity --scan</text>
+    <text x="868" y="32" text-anchor="end" fill="#5eead4" font-size="10">SIGNAL VERIFIED</text>
+  </g>
+  <g clip-path="url(#ts-reveal)">
+    <rect x="51" y="74" width="798" height="90" fill="url(#ts-grid)"/>
+    <g fill="#164e63">
+      <rect x="81" y="89" width="11" height="11" rx="2"/><rect x="141" y="119" width="11" height="11" rx="2"/><rect x="216" y="104" width="11" height="11" rx="2"/>
+      <rect x="291" y="134" width="11" height="11" rx="2"/><rect x="426" y="89" width="11" height="11" rx="2"/><rect x="591" y="119" width="11" height="11" rx="2"/>
+      <rect x="711" y="89" width="11" height="11" rx="2"/><rect x="816" y="134" width="11" height="11" rx="2"/>
+    </g>
+    <g fill="#0891b2">
+      <rect x="111" y="104" width="11" height="11" rx="2"/><rect x="231" y="89" width="11" height="11" rx="2"/><rect x="321" y="119" width="11" height="11" rx="2"/>
+      <rect x="456" y="134" width="11" height="11" rx="2"/><rect x="546" y="104" width="11" height="11" rx="2"/><rect x="666" y="134" width="11" height="11" rx="2"/>
+      <rect x="771" y="104" width="11" height="11" rx="2"/>
+    </g>
+    <g fill="#22d3ee" filter="url(#ts-glow)">
+      <rect x="171" y="134" width="11" height="11" rx="2"/><rect x="351" y="89" width="11" height="11" rx="2"/><rect x="501" y="119" width="11" height="11" rx="2"/>
+      <rect x="621" y="89" width="11" height="11" rx="2"/><rect x="801" y="119" width="11" height="11" rx="2"/>
+    </g>
+    <g fill="#8b5cf6">
+      <rect x="186" y="119" width="11" height="11" rx="2"/><rect x="366" y="104" width="11" height="11" rx="2"/><rect x="516" y="134" width="11" height="11" rx="2"/>
+      <rect x="636" y="104" width="11" height="11" rx="2"/><rect x="786" y="89" width="11" height="11" rx="2"/>
+    </g>
+    <rect x="51" y="74" width="798" height="90" fill="url(#ts-word-cells)" mask="url(#ts-word-mask)" filter="url(#ts-glow)" opacity="0.95"/>
+  </g>
+  <rect x="50" y="69" width="2" height="100" fill="#22d3ee" filter="url(#ts-glow)">
+    <animate attributeName="x" values="50;849;849;50" keyTimes="0;0.58;0.88;1" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="8s" repeatCount="indefinite"/>
+  </rect>
+  <g font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="10">
+    <text x="51" y="190" fill="#8b949e">[OK] contribution matrix decoded</text>
+    <text x="849" y="190" text-anchor="end" fill="#a78bfa">
+      CYAN/VIOLET PROTOCOL <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>

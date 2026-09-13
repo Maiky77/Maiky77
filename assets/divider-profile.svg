@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="62" viewBox="0 0 900 62" role="img" aria-label="Separador animado de perfil Maiky">
+  <defs>
+    <linearGradient id="profile-left" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="profile-right" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="profile-glow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="2.8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <path d="M28 31H405" stroke="#30363d" stroke-width="1"/>
+  <path d="M495 31H872" stroke="#30363d" stroke-width="1"/>
+  <path d="M28 31H405" stroke="url(#profile-left)" stroke-width="1.6" stroke-dasharray="5 10">
+    <animate attributeName="stroke-dashoffset" values="60;0" dur="4.8s" repeatCount="indefinite"/>
+  </path>
+  <path d="M495 31H872" stroke="url(#profile-right)" stroke-width="1.6" stroke-dasharray="5 10">
+    <animate attributeName="stroke-dashoffset" values="0;60" dur="4.8s" repeatCount="indefinite"/>
+  </path>
+
+  <g transform="translate(450 31)">
+    <circle r="20" fill="#0d1117" stroke="#30363d"/>
+    <circle r="15" fill="none" stroke="#22d3ee" stroke-opacity="0.65" stroke-width="1.5" stroke-dasharray="5 4">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4" fill="#8b5cf6" filter="url(#profile-glow)">
+      <animate attributeName="r" values="3;5;3" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="4" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="800" fill="#f0f6fc">M</text>
+  </g>
+
+  <circle cy="31" r="2.7" fill="#5eead4" filter="url(#profile-glow)">
+    <animate attributeName="cx" values="45;397" dur="5.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.8;0" dur="5.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cy="31" r="2.7" fill="#a78bfa" filter="url(#profile-glow)">
+    <animate attributeName="cx" values="855;503" dur="5.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.8;0" dur="5.5s" repeatCount="indefinite"/>
+  </circle>
+</svg>

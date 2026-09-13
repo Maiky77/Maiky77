@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="20" viewBox="0 0 88 20" role="img" aria-labelledby="title">
+  <title id="title">Retrofit</title>
+  <rect x=".5" y=".5" width="87" height="19" rx="4" fill="#161b22" stroke="#30363d"/>
+  <g transform="translate(4 2) scale(.3333)">
+    <path d="M13 15h17l-5-5m5 5-5 5M35 33H18l5 5m-5-5 5-5" fill="none" stroke="#48b983" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="24" y="28" text-anchor="middle" font-family="Arial" font-size="13" font-weight="700" fill="#b9f6d2">R</text>
+  </g>
+  <text x="25" y="14" font-family="Verdana,Arial,sans-serif" font-size="11" fill="#c9d1d9">Retrofit</text>
+</svg>

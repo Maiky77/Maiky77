@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="title">
+  <title id="title">Google ML Kit</title>
+  <rect width="48" height="48" rx="10" fill="#242938"/>
+  <path d="M14 16.5 24 11l10 5.5v11L24 33l-10-5.5Z" fill="none" stroke="#4285F4" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="m14 16.5 10 6 10-6M24 22.5V33" fill="none" stroke="#34A853" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="14" cy="16.5" r="3" fill="#EA4335"/>
+  <circle cx="34" cy="16.5" r="3" fill="#FBBC05"/>
+  <circle cx="24" cy="33" r="3" fill="#34A853"/>
+  <circle cx="24" cy="22.5" r="3.5" fill="#4285F4"/>
+</svg>
